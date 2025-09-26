@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Hilman</title>
+    <title>Portfolio</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/script.js"></script>
+    <script src="js/script.js"></script> 
 </head>
 <body class="bg-gray-50 font-sans">
     <!-- Header -->
-    <header class="bg-white shadow-sm">
+    <header class="bg-white shadow-sm g-white border-t border-gray-200 py-0 text-center">
         <div class="max-w-6xl mx-auto px-4 py-3">
             <div class="flex items-center justify-between">
                 <!-- Logo -->
                 <div class="flex items-center">
-                    <div class="w-8 h-8 bg-yellow-400 rounded flex items-center justify-center mr-3">
-                        <span class="text-black font-bold text-sm">⚡</span>
+                    <div id="profil" >
+                    <img src="image/logo2.png" alt="logo">
                     </div>
-                </div>
+                </div>  
                 
                 <!-- Navigation -->
                 <nav class="flex space-x-2">
@@ -38,6 +38,7 @@
             </div>
         </div>
     </header>
+    <hr class="border-gray-200 py-0 text-center">
 
     <!-- Welcome Section -->
     <section class="bg-white py-16 welcome-section">
@@ -58,27 +59,30 @@
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
                 <!-- Jakarta -->
-                <div class="flex flex-col items-center headquarter-item">
+                <div class="flex flex-col items-center">
                     <div class="circle-placeholder mb-4">
-                        <span class="text-gray-400 text-sm">Image</span>
+                        <img src="image/jakarta.jpg" alt="Jakarta" class="w-full h-full object-cover rounded-full">
                     </div>
                     <h3 class="text-lg font-medium text-gray-800">Jakarta</h3>
+                    <p class="text-justify ">Jakarta adalah ibu kota Indonesia yang terletak di pulau Jawa. Kota ini merupakan pusat pemerintahan, ekonomi, budaya, dan bisnis terbesar di Indonesia. Jakarta dikenal sebagai kota metropolitan yang padat penduduk, memiliki beragam budaya, serta banyak destinasi wisata dan pusat perbelanjaan. kota indonesia</p>
                 </div>
                 
                 <!-- Bandung -->
-                <div class="flex flex-col items-center headquarter-item">
+                <div class="flex flex-col items-center ">
                     <div class="circle-placeholder mb-4">
-                        <span class="text-gray-400 text-sm">Image</span>
+                        <img src="image/download.jpg" alt="Bandung" class="w-full h-full object-cover rounded-full">
                     </div>
                     <h3 class="text-lg font-medium text-gray-800">Bandung</h3>
+                    <p class="text-justify">Bandung adalah ibu kota Provinsi Jawa Barat, Indonesia, yang dikenal sebagai kota kembang. Kota ini terkenal dengan udara sejuk, pemandangan pegunungan, serta pusat pendidikan, kuliner, dan mode. Bandung juga memiliki banyak tempat wisata menarik seperti Lembang, Kawah Putih, dan berbagai factory outlet.</p>
                 </div>
                 
                 <!-- Surabaya -->
-                <div class="flex flex-col items-center headquarter-item">
+                <div class="flex flex-col items-center ">
                     <div class="circle-placeholder mb-4">
-                        <span class="text-gray-400 text-sm">Image</span>
+                        <img src="image/sby.jpg" alt="Surabaya" class="w-full h-full object-cover rounded-full">
                     </div>
                     <h3 class="text-lg font-medium text-gray-800">Surabaya</h3>
+                    <p class="text-justify">Surabaya adalah ibu kota Provinsi Jawa Timur, Indonesia. Kota ini merupakan kota terbesar kedua di Indonesia setelah Jakarta, dikenal sebagai pusat bisnis, perdagangan, industri, dan pendidikan di kawasan timur Indonesia. Surabaya juga memiliki sejarah penting sebagai kota pahlawan karena peranannya dalam perjuangan kemerdekaan Indonesia.</p>
                 </div>
             </div>
         </div>
@@ -130,22 +134,22 @@
                     <div class="space-y-4">
                         <div>
                             <h3 class="font-medium text-gray-800">Contact Info:</h3>
-                            <p class="text-sm text-gray-600">Jl. Jend. Gatot Subroto Kav 23 (RT.4/RW.12)</p>
+                            <a href="https://maps.app.goo.gl/RrRmJof6ApPauVbB8" target="_blank">Lihat di Google Maps</a>
                         </div>
                         
                         <div>
                             <h3 class="font-medium text-gray-800">Telephone:</h3>
-                            <p class="text-sm text-gray-600">(021) 571-1208</p>
+                            <a href="https://wa.me/6283897606964" target="_blank">083897606964</a>
                         </div>
                         
                         <div>
                             <h3 class="font-medium text-gray-800">Email Address:</h3>
-                            <p class="text-sm text-gray-600">info@harif.co.id</p>
+                            <a href="mailto:hilmanisatiana@gmail.com">hilmanisatiana@gmail.com</a>
                         </div>
                         
                         <div>
-                            <h3 class="font-medium text-gray-800">Website:</h3>
-                            <p class="text-sm text-gray-600">www.harif.co.id</p>
+                            <h3 class="font-medium text-gray-800">LinkedIn:</h3>
+                            <a href="https://www.linkedin.com/in/hilmanisa-tiana-54b744241" target="_blank">Kunjungi LinkedIn Saya</a>
                         </div>
                     </div>
                 </div>
@@ -156,7 +160,7 @@
     <!-- Footer -->
     <footer class="bg-white border-t border-gray-200 py-4 text-center">
         <div class="max-w-6xl mx-auto px-4 text-center">
-            <p class="text-sm text-gray-500">copyright © 2025 Hilman</p>
+            <p class="text-sm text-gray-500">Copyright © 2025 Hilman </p>
         </div>
     </footer>
 </body>
